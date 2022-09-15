@@ -54,7 +54,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Cartoon Heroes\Scripts\SetCharacter\SetCharacter.cs" />
-    <Compile Include="Assets\Script\PlayerCtrl.cs" />
+    <Compile Include="Assets\Script\L_Script\HItboxScript.cs" />
+    <Compile Include="Assets\Script\L_Script\L_PlayerCtrl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Meshtint Free Knight\Read me.txt" />
