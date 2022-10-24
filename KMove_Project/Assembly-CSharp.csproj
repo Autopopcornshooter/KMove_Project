@@ -54,14 +54,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\L_Script\L_Weapon.cs" />
-    <Compile Include="Assets\Script\P_Scripts\P_ChatacterMovement.cs" />
     <Compile Include="Assets\Script\L_Script\L_PlayerCtrl.cs" />
     <Compile Include="Assets\Cartoon Heroes\Scripts\SetCharacter\SetCharacter.cs" />
     <Compile Include="Assets\Script\P_Scripts\P_CameraMovement.cs" />
-    <Compile Include="Assets\Script\L_Script\L_HitboxScript.cs" />
+    <Compile Include="Assets\Script\L_Script\L_EnemyCtrl.cs" />
     <Compile Include="Assets\Script\L_Script\L_Sword.cs" />
     <Compile Include="Assets\Script\L_Script\L_Sheild.cs" />
-    <Compile Include="Assets\Script\L_Script\L_EnemyCtrl.cs" />
+    <Compile Include="Assets\Script\L_Script\L_HitboxScript.cs" />
+    <Compile Include="Assets\Script\P_Scripts\P_CharacterMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Meshtint Free Knight\Read me.txt" />

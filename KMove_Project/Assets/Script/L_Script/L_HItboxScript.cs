@@ -5,7 +5,9 @@ using UnityEngine;
 public class L_HitboxScript : MonoBehaviour
 {
     [SerializeField]
-  private Animator animator;
+    private Animator animator;
+
+
     private BoxCollider collider;
     private void Start()
     {
@@ -14,17 +16,17 @@ public class L_HitboxScript : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            Enemy_Attack();
-        }
+
     }
-    private void Enemy_Attack()
+    public void HitboxDisable()
     {
-        animator.SetTrigger("Attack");
-        StartCoroutine(HitboxEnable());
+        collider.enabled = false;
     }
-    IEnumerator HitboxEnable()
+    public void Attack()
+    {
+        StartCoroutine(AttackHitbox());
+    }
+    IEnumerator AttackHitbox()
     {
         yield return new WaitForSecondsRealtime(0.3f);
         collider.enabled = true;
